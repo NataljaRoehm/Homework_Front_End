@@ -7,6 +7,5 @@ let cities = ["London", "Paris", "Berlin", "Madrid"];
 let reversCities = []
 
 for (let i = cities.length - 1; i >=0; i--) {
-     reversCities.push(cities[i]);
-}
+     reversCities.push(cities[i]);}
      console.log(reversCities);    

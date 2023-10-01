@@ -8,18 +8,17 @@
 //  Выведите сколько на планете джедаев и как их зовут. 
 
 let jedi = [];
+
 jedi.push("Yoda");
 jedi.push("Obi-Wan");
 jedi.push("Qui-Gon");
-
-while (jedi.length > 0) {
-    // jedi.pop();  
-  jedi.shift();
-}
+ 
+jedi.shift();
 
 let newJedi = [...jedi];
 newJedi.push("Anakin");
 
 let jediCount = newJedi.length;
 
-console.log(`На планете джедаев ${jediCount}. Их зовут: ${newJedi.join(', ')}`);
+console.log(`Сколько на планете джедаев: ${jediCount}`);
+console.log(`Их имена: ${newJedi.join(", ")}`);
